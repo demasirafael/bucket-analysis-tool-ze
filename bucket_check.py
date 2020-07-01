@@ -5,12 +5,12 @@ import sys
 s3 = boto3.client('s3',
                   aws_access_key_id=sys.argv[1],
                   aws_secret_access_key=sys.argv[2],
-                  region_name=us-east-1
+                  region_name="us-east-1"
                   )
 pricing = boto3.client('pricing',
                        aws_access_key_id=sys.argv[1],
                        aws_secret_access_key=sys.argv[2],
-                       region_name=us-east-1
+                       region_name="us-east-1"
                        )
 locationdict = {
     "None": 'US East (N. Virginia)',
