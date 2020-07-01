@@ -5,8 +5,8 @@ This is a tool built for AWS S3 buckets analysis and price estimation.
 
 Pre-requisites:
 
--Python 3 
--Pip 3
+->Python 3   
+->Pip 3
 
 Installation instructions:
 
