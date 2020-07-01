@@ -14,5 +14,5 @@ pip install -r requirements.txt
 
 To run the tool, use:
 
-python bucket-check.py <aws_access_key_id> <aws_access_key_id>
+python bucket-check.py <aws_access_key_id> <aws_secret_access_key>
 
