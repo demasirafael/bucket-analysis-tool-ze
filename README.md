@@ -5,14 +5,14 @@ This is a tool built for AWS S3 buckets analysis and price estimation.
 
 Pre-requisites:
 
--Python 
--Pip
+-Python 3 
+-Pip 3
 
 Installation instructions:
 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 To run the tool, use:
 
-python bucket-check.py <aws_access_key_id> <aws_secret_access_key>
+python3 bucket_check.py <aws_access_key_id> <aws_secret_access_key>
 
